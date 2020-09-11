@@ -1,0 +1,52 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "Bitmap",
+        "repositoryURL": "https://github.com/juliand665/Bitmap.git",
+        "state": {
+          "branch": null,
+          "revision": "2c78b88fa99b552636957aaee16e6b0085bdf107",
+          "version": "2.0.0"
+        }
+      },
+      {
+        "package": "CGeometry",
+        "repositoryURL": "https://github.com/juliand665/CGeometry.git",
+        "state": {
+          "branch": null,
+          "revision": "ac52d6473d585836108a51a5f940464795efdc26",
+          "version": "0.3.0"
+        }
+      },
+      {
+        "package": "HandyOperators",
+        "repositoryURL": "https://github.com/juliand665/HandyOperators.git",
+        "state": {
+          "branch": null,
+          "revision": "483aa96950ad3078d092b2ba8d9dda6ea6576244",
+          "version": "1.0.0"
+        }
+      },
+      {
+        "package": "SwiftCF",
+        "repositoryURL": "https://github.com/juliand665/SwiftCF.git",
+        "state": {
+          "branch": "master",
+          "revision": "dc500b9fea1f28a55f80cb1dc990dd16d4c38e8e",
+          "version": null
+        }
+      },
+      {
+        "package": "UserDefault",
+        "repositoryURL": "https://github.com/juliand665/UserDefault.git",
+        "state": {
+          "branch": null,
+          "revision": "93255a96b54a3dd7d7b4aa6102721e249e847be5",
+          "version": "1.0.0"
+        }
+      }
+    ]
+  },
+  "version": 1
+}
