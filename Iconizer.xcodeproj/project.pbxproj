@@ -12,12 +12,12 @@
 		B9A4AA7A250BDFB80033CDCF /* IconArtworkPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9A4AA79250BDFB80033CDCF /* IconArtworkPreview.swift */; };
 		B9A4AA7C250BDFE60033CDCF /* IconSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9A4AA7B250BDFE60033CDCF /* IconSet.swift */; };
 		B9CB6C5A250BF614003BDCEB /* UserDefault in Frameworks */ = {isa = PBXBuildFile; productRef = B9CB6C59250BF614003BDCEB /* UserDefault */; };
+		B9CB6C5D250C563C003BDCEB /* SwiftCF in Frameworks */ = {isa = PBXBuildFile; productRef = B9CB6C5C250C563C003BDCEB /* SwiftCF */; };
 		B9CCF90D2507CC0B0002B24B /* IconizerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9CCF90C2507CC0B0002B24B /* IconizerApp.swift */; };
 		B9CCF90F2507CC0B0002B24B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9CCF90E2507CC0B0002B24B /* ContentView.swift */; };
 		B9CCF9112507CC0D0002B24B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B9CCF9102507CC0D0002B24B /* Assets.xcassets */; };
 		B9CCF9142507CC0D0002B24B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B9CCF9132507CC0D0002B24B /* Preview Assets.xcassets */; };
 		B9CCF91E250828DE0002B24B /* Bitmap in Frameworks */ = {isa = PBXBuildFile; productRef = B9CCF91D250828DE0002B24B /* Bitmap */; };
-		B9CCF9242508702A0002B24B /* SwiftCF in Frameworks */ = {isa = PBXBuildFile; productRef = B9CCF9232508702A0002B24B /* SwiftCF */; };
 		B9CCF927250873330002B24B /* HandyOperators in Frameworks */ = {isa = PBXBuildFile; productRef = B9CCF926250873330002B24B /* HandyOperators */; };
 		B9CCF947250876640002B24B /* Templates in Resources */ = {isa = PBXBuildFile; fileRef = B9CCF946250876640002B24B /* Templates */; };
 		B9CCF94A2508797C0002B24B /* CGeometry in Frameworks */ = {isa = PBXBuildFile; productRef = B9CCF9492508797C0002B24B /* CGeometry */; };
@@ -60,10 +60,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				B9CB6C5A250BF614003BDCEB /* UserDefault in Frameworks */,
+				B9CB6C5D250C563C003BDCEB /* SwiftCF in Frameworks */,
 				B9CCF94A2508797C0002B24B /* CGeometry in Frameworks */,
 				B9CCF927250873330002B24B /* HandyOperators in Frameworks */,
 				B9CCF91E250828DE0002B24B /* Bitmap in Frameworks */,
-				B9CCF9242508702A0002B24B /* SwiftCF in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -162,10 +162,10 @@
 			name = Iconizer;
 			packageProductDependencies = (
 				B9CCF91D250828DE0002B24B /* Bitmap */,
-				B9CCF9232508702A0002B24B /* SwiftCF */,
 				B9CCF926250873330002B24B /* HandyOperators */,
 				B9CCF9492508797C0002B24B /* CGeometry */,
 				B9CB6C59250BF614003BDCEB /* UserDefault */,
+				B9CB6C5C250C563C003BDCEB /* SwiftCF */,
 			);
 			productName = Iconizer;
 			productReference = B9CCF9092507CC0B0002B24B /* Iconizer.app */;
@@ -196,10 +196,10 @@
 			mainGroup = B9CCF9002507CC0B0002B24B;
 			packageReferences = (
 				B9CCF91C250828DE0002B24B /* XCRemoteSwiftPackageReference "Bitmap" */,
-				B9CCF9222508702A0002B24B /* XCRemoteSwiftPackageReference "SwiftCF" */,
 				B9CCF925250873330002B24B /* XCRemoteSwiftPackageReference "HandyOperators" */,
 				B9CCF9482508797C0002B24B /* XCRemoteSwiftPackageReference "CGeometry" */,
 				B9CB6C58250BF614003BDCEB /* XCRemoteSwiftPackageReference "UserDefault" */,
+				B9CB6C5B250C563C003BDCEB /* XCRemoteSwiftPackageReference "SwiftCF" */,
 			);
 			productRefGroup = B9CCF90A2507CC0B0002B24B /* Products */;
 			projectDirPath = "";
@@ -443,20 +443,20 @@
 				minimumVersion = 1.0.0;
 			};
 		};
+		B9CB6C5B250C563C003BDCEB /* XCRemoteSwiftPackageReference "SwiftCF" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ddddxxx/SwiftCF.git";
+			requirement = {
+				kind = revision;
+				revision = 7f7acf1e38e3245ca70b1f16d4ceeb5b0545d2f2;
+			};
+		};
 		B9CCF91C250828DE0002B24B /* XCRemoteSwiftPackageReference "Bitmap" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/juliand665/Bitmap.git";
 			requirement = {
 				kind = upToNextMajorVersion;
 				minimumVersion = 2.0.0;
-			};
-		};
-		B9CCF9222508702A0002B24B /* XCRemoteSwiftPackageReference "SwiftCF" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/juliand665/SwiftCF.git";
-			requirement = {
-				branch = master;
-				kind = branch;
 			};
 		};
 		B9CCF925250873330002B24B /* XCRemoteSwiftPackageReference "HandyOperators" */ = {
@@ -483,15 +483,15 @@
 			package = B9CB6C58250BF614003BDCEB /* XCRemoteSwiftPackageReference "UserDefault" */;
 			productName = UserDefault;
 		};
+		B9CB6C5C250C563C003BDCEB /* SwiftCF */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B9CB6C5B250C563C003BDCEB /* XCRemoteSwiftPackageReference "SwiftCF" */;
+			productName = SwiftCF;
+		};
 		B9CCF91D250828DE0002B24B /* Bitmap */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = B9CCF91C250828DE0002B24B /* XCRemoteSwiftPackageReference "Bitmap" */;
 			productName = Bitmap;
-		};
-		B9CCF9232508702A0002B24B /* SwiftCF */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = B9CCF9222508702A0002B24B /* XCRemoteSwiftPackageReference "SwiftCF" */;
-			productName = SwiftCF;
 		};
 		B9CCF926250873330002B24B /* HandyOperators */ = {
 			isa = XCSwiftPackageProductDependency;
